@@ -16,7 +16,7 @@ resizeCanvas();
 for (let i = 1; i <= frameCount; i++) {
   const img = new Image();
   const index = String(i).padStart(3, "0");
-  img.src = `images/ezgif-frame-${index}.jpg`;
+  img.src = `image/ezgif-frame-${index}.jpg`;
   img.onload = () => loadedImages++;
   images.push(img);
 }
